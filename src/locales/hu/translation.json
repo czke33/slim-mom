@@ -1,9 +1,9 @@
 {
-    "calculate_daily_intake": "A napi kalóriaigény kiszámítésa",
+    "calculate_daily_intake": "A napi kalóriaigény kiszámítása",
     "height": "Magasság",
     "age": "Életkor",
-    "current_weight": "Aktuális súlz",
-    "desired_weight": "Elérni kívánt sóly",
+    "current_weight": "Aktuális súly",
+    "desired_weight": "Elérni kívánt súly",
     "blood_type": "Vércsoport",
     "start_losing_weight": "Kezdd el a fogyást",
     "recommended_calorie_intake": "Az ajánlott napi kalóriabevitel",
