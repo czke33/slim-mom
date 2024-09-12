@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BloodTypeProvider>
         <CalorieInfoProvider>
           <ConsumedProductsProvider>
-            <BrowserRouter basename="/slim-mom">
+            <BrowserRouter basename="/">
               <App />
             </BrowserRouter>
           </ConsumedProductsProvider>
