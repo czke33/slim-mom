@@ -15,7 +15,7 @@ const AddProductPage = () => {
   const handleSaveProduct = async product => {
     try {
       const response = await axios.post(
-        'http://localhost:3000/api/products/consumed',
+        'http://localhost:5000/api/products/consumed',
         {
           productId: product._id,
           date: new Date(), // Putem utiliza data curentă aici

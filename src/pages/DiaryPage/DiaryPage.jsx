@@ -27,7 +27,7 @@ const DiaryPage = () => {
       const fetchConsumedProducts = async () => {
         try {
           const response = await axios.get(
-            'http://localhost:3000/api/products/day-info',
+            'http://localhost:5000/api/products/day-info',
             {
               params: { date: selectedDate.toISOString() },
               headers: {
@@ -59,7 +59,7 @@ const DiaryPage = () => {
   const handleSaveProduct = async product => {
     try {
       const response = await axios.post(
-        'http://localhost:3000/api/products/consumed',
+        'http://localhost:5000/api/products/consumed',
         {
           productId: product._id,
           date: selectedDate,
@@ -88,7 +88,7 @@ const DiaryPage = () => {
   const handleDeleteProduct = async productId => {
     try {
       await axios.delete(
-        `http://localhost:3000/api/products/consumed/${productId}`,
+        `http://localhost:5000/api/products/consumed/${productId}`,
         {
           headers: {
             Authorization: `Bearer ${auth.token}`,

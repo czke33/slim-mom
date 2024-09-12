@@ -2,7 +2,7 @@ import axios from "axios";
 import {getAuthToken} from "../utils/auth"; //import functia de autentificarepentru a obtine token JWT
 
 const axiosInstance=axios.create({
-    baseURL: 'http://localhost:3000/api',//setare URL-ul de baza
+    baseURL: 'http://localhost:5000/api',//setare URL-ul de baza
 });
 
 axiosInstance.interceptors.request.use(
